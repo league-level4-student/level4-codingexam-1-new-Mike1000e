@@ -23,8 +23,21 @@ package scheduler;
  * - Make sure any enums or classes you create have properly encapsulated member
  *   variables.
  */
+
+enum Weekday {
+	
+	MONDAY(new LinkedList<String>("hello")), TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+	
+	private final LinkedList<String> list;
+	
+	
+}
+
+
 public class Scheduler {
 
+	
+	
     public static void main(String[] args) {
 
     }
